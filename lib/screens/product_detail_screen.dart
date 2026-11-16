@@ -18,6 +18,8 @@ class ProductDetailScreen extends StatelessWidget {
       ..showSnackBar(
         SnackBar(
           content: Text('${product.name} added to cart'),
+          // Aksiyonlu SnackBar varsayılan olarak kalıcıdır; birkaç saniye sonra kapansın.
+          persist: false,
           action: SnackBarAction(
             label: 'View cart',
             onPressed: () => Navigator.pushNamed(context, AppRoutes.cart),

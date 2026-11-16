@@ -1,5 +1,7 @@
 # Mini Katalog Uygulaması
 
+**Hazırlayan:** Furkan Bozkurt
+
 Flutter ile geliştirilmiş, Android'de çalışan basit bir ürün katalog uygulaması.
 "Flutter Günlük Eğitim" kapsamında hazırlanmış eğitim projesidir.
 
@@ -23,8 +25,8 @@ Uygulama üç ekrandan oluşur:
 ## Kullanılan Flutter sürümü
 
 ```
-Flutter 3.44.9 • channel stable
-Dart 3.12.2
+Flutter 3.50.0 • channel stable
+Dart 3.14.0
 ```
 
 ## Çalıştırma adımları
@@ -32,8 +34,8 @@ Dart 3.12.2
 Gereksinimler: Flutter SDK, Android Studio (Android SDK + emülatör) veya USB hata ayıklaması açık bir Android cihaz.
 
 ```bash
-git clone <repo-adresi>
-cd <repo-klasoru>
+git clone https://github.com/Furkan0010/MobilApp.git
+cd MobilApp
 flutter pub get
 flutter run
 ```
